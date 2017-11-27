@@ -17,7 +17,7 @@ gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
 
-group :development, :test do
+group :development do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'web-console', '>= 3.3.0'
@@ -25,3 +25,16 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
+
+group :development, :test do
+  gem 'capybara'
+  gem 'poltergeist'
+  gem 'launchy'
+  gem 'minitest-reporters'
+  gem 'selenium-webdriver'
+  gem 'chromedriver-helper'
+end
+
+
+
