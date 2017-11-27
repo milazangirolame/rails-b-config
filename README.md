@@ -15,12 +15,17 @@ rails new   Umanni
 
 Here are some **cool** added features:
 
-- Users login
-
-Next:
-- stylesheets
+- Users login with Devise
+- Bootstrap personalized variables
+- Added navbar 
+- Scss organizing
+- User custom front-end and home layout for:
+  - sign-up 
+  - sign-in
+  - lost password
+  - edit registrations
+  - sessions
 
 
 # Testing
-
-Still without a `test` folder
+- Added initial tests for rails test:system 
